@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000;
+}
+
+.container{
+  width: 60%;
+  height: 100vh;
+  margin: auto;
+  background: url(./image/blue\ back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.row{
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.form-content{
+  width: 50%;
+}
+
+.form-content h1{
+  font-size: 40px;
+  margin-inline-end: 30px;
+  color: #fff;
+}
+
+.form-content p{
+font-size: 16px;
+color: white;
+font-weight: 300;
+padding-top: 10px;
+}
+
+.main-form{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-top: 4.3rem;
+ padding: 20px;
+ border-radius: 20px;
+  background-color: #fff;
+}
+
+.main-form form{
+  position: relative;
+  width: 350px;
+  max-width: 350px;
+}
+
+form h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px #212222;
+  color: #000;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  resize: none;
+}
+
+form textarea{
+height: 100px;
+}
+
+form .radio{
+
+  margin-top: 10px;
+  margin-block-end: 20px;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+ 
+}
+
+form .radio .circle{
+  padding: 0;
+  width: 10px;
+  border-radius: 50%;
+}
+
+form .title{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+  color: black;
+  font-size: 15px;
+}
+
+form .send-btn{
+  display: inline-block;
+  padding: 11px 26px;
+  margin-top: 20px;
+  background-color: #F9429E;
+  color: white;
+  border: 2px solid #F9429E;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all .5s ease;
+}
+
+form .send-btn:hover{
+  background-color: transparent;
+  color: #F9429E;
+  box-shadow: 0 0 20px #F9429E;
+  cursor: pointer;
+}
